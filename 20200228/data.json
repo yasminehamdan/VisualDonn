@@ -1,0 +1,402 @@
+
+{
+    "help": "https://opendata.swiss/api/3/action/help_show?name=package_show",
+    "success": true,
+    "result": {
+      "license_title": null,
+      "maintainer": "info@bfs.admin.ch",
+      "issued": "1996-12-01T01:00:00",
+      "private": false,
+      "maintainer_email": "auskunftsdienst@bfs.admin.ch",
+      "num_tags": 8,
+      "contact_points": [
+        {
+          "email": "auskunftsdienst@bfs.admin.ch",
+          "name": "info@bfs.admin.ch"
+        }
+      ],
+      "keywords": {
+        "rm": [
+          "criminalitad-e-dretg-penal"
+        ],
+        "fr": [
+          "publication",
+          "criminalite-et-droit-penal"
+        ],
+        "de": [
+          "publikation",
+          "kriminalitat-und-strafrecht"
+        ],
+        "en": [
+          "crime-and-criminal-justice",
+          "publication"
+        ],
+        "it": [
+          "pubblicazione",
+          "diritto-e-giustizia"
+        ]
+      },
+      "temporals": [
+        {
+          "start_date": "1984-01-01T01:00:00",
+          "end_date": "1993-12-31T01:00:00"
+        }
+      ],
+      "id": "d9979f49-c89b-4361-bdc8-71412860e93a",
+      "metadata_created": "2018-05-24T08:30:27.514177",
+      "relationships_as_object": [
+        
+      ],
+      "display_name": {
+        "fr": "De la nationalité des condamnés",
+        "de": "Zur Staatszugehörigkeit von Verurteilten",
+        "en": "",
+        "it": ""
+      },
+      "metadata_modified": "2020-03-06T06:38:00.633170",
+      "author": "BFS/OFS",
+      "author_email": null,
+      "relations": [
+        {
+          "url": "https://www.admin.ch/opc/de/classified-compilation/19920252/index.html",
+          "label": "legal_basis"
+        }
+      ],
+      "state": "active",
+      "version": null,
+      "spatial": "Schweiz",
+      "license_id": null,
+      "type": "dataset",
+      "resources": [
+        {
+          "byte_size": 0,
+          "cache_last_updated": null,
+          "issued": "1996-12-01T01:00:00",
+          "package_id": "d9979f49-c89b-4361-bdc8-71412860e93a",
+          "datastore_active": false,
+          "id": "63298836-9baa-40f3-81c5-d4ee06a24a7c",
+          "size": null,
+          "display_name": {
+            "fr": "De la nationalité des condamnés",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "title": {
+            "fr": "De la nationalité des condamnés",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "state": "active",
+          "media_type": "text/html",
+          "hash": "",
+          "description": {
+            "fr": "La question de la criminalité dans la population \"étrangère\" est, depuis quelque temps déjà, l'un des problèmes de société auxquels le grand public s'intéresse le plus. On pense généralement que la criminalité est particulièrement importante parmi les étrangers, qu'elle menace notre société et qu'elle risque de devenir incontrôlable. Considérées superficiellement, les statistiques peuvent en effet donner l'impression que la criminalité est plus forte parmi les étrangers que parmi les Suisses. Mais cette impression est trompeuse. Une simple comparaison entre le nombre des condamnés suisses et le nombre des condamnés étrangers n'a guère de valeur, ces derniers formant un ensemble par trop hétérogène. Pour que la comparaison soit valable, il faut tenir compte de plusieurs facteurs qui, indépendamment de la couleur du passeport, influencent la probabilité qu'une personne commette un délit. Ces facteurs sont le type d'autorisation de séjour des étrangers - comme critère de leur intégration sociale -, leurs caractères socio-démographiques et leurs conditions de vie. La présente étude fait aussi apparaître une corrélation entre l'augmentation de la criminalité et la mobilité croissante des individus.",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "format": "HTML",
+          "mimetype_inner": null,
+          "url_type": null,
+          "mimetype": "text/html",
+          "cache_url": null,
+          "name": {
+            "fr": "De la nationalité des condamnés",
+            "en": "",
+            "de": "",
+            "it": ""
+          },
+          "language": [
+            "fr"
+          ],
+          "rights": "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired",
+          "url": "https://www.bfs.admin.ch/asset/fr/190-9100",
+          "created": "2018-05-24T08:30:27.543736",
+          "uri": "",
+          "last_modified": null,
+          "position": 0,
+          "revision_id": "f931f22b-8bfa-4e91-acfc-be8f12c3be68",
+          "identifier": "340968-fr@bundesamt-fur-statistik-bfs",
+          "resource_type": null
+        },
+        {
+          "byte_size": 0,
+          "cache_last_updated": null,
+          "issued": "1996-12-01T01:00:00",
+          "package_id": "d9979f49-c89b-4361-bdc8-71412860e93a",
+          "datastore_active": false,
+          "id": "0b63db9c-69b8-48e5-b000-6fdc000c4f75",
+          "size": null,
+          "display_name": {
+            "fr": "",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "title": {
+            "fr": "",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "state": "active",
+          "media_type": "text/html",
+          "hash": "",
+          "description": {
+            "fr": "",
+            "de": "Seit einiger Zeit stösst die strafrechtliche Registrierung von \"Ausländern\" als soziales Problem auf öffentliches Interesse. Hintergrund ist die Annahme, dass \"Kriminalität von Ausländern\" besonders häufig und massiv vorkommt und damit bedrohlich und unkontrollierbar ist. Zwar erhält man beim Betrachten von Kriminalstatistiken zunächst den Eindruck einer Höherbelastung von Ausländerinnen und Ausländern. Doch ein statistischer Vergleich von Schweizer Verurteilten mit ausländischen Verurteilten ist aufgrund deren heterogener Zusammensetzung wenig aussagekräftig. Zu berücksichtigen sind nicht nur der Aufenthaltsstatus als Merkmal der sozialen Integration, sondern auch die soziodemografische Zusammensetzung sowie die Lebenslagen, welche die Wahrscheinlichkeit einer Kriminalisierung unabhängig von der Farbe des Passes beeinflussen. Die vorliegende Publikation verdeutlicht auch den Zusammenhang zwischen wachsender Mobilität und dem Ansteigen registrierter Kriminalität.",
+            "en": "",
+            "it": ""
+          },
+          "format": "HTML",
+          "mimetype_inner": null,
+          "url_type": null,
+          "mimetype": "text/html",
+          "cache_url": null,
+          "name": {
+            "fr": "",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "language": [
+            "de"
+          ],
+          "rights": "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired",
+          "url": "https://www.bfs.admin.ch/asset/de/190-9100",
+          "created": "2018-05-24T08:30:27.543740",
+          "uri": "",
+          "last_modified": null,
+          "position": 1,
+          "revision_id": "704a30bf-c13b-4d68-95fe-3c5995f5826d",
+          "identifier": "340968-de@bundesamt-fur-statistik-bfs",
+          "resource_type": null
+        },
+        {
+          "byte_size": 0,
+          "cache_last_updated": null,
+          "issued": "1996-12-01T01:00:00",
+          "package_id": "d9979f49-c89b-4361-bdc8-71412860e93a",
+          "datastore_active": false,
+          "id": "d8d17504-a6df-45dd-82b4-6d4066f6f91a",
+          "size": null,
+          "display_name": {
+            "fr": "De la nationalité des condamnés",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "title": {
+            "fr": "De la nationalité des condamnés",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "download_url": "https://www.bfs.admin.ch/bfsstatic/dam/assets/340968/master",
+          "state": "active",
+          "media_type": "application/pdf",
+          "hash": "",
+          "description": {
+            "fr": "La question de la criminalité dans la population \"étrangère\" est, depuis quelque temps déjà, l'un des problèmes de société auxquels le grand public s'intéresse le plus. On pense généralement que la criminalité est particulièrement importante parmi les étrangers, qu'elle menace notre société et qu'elle risque de devenir incontrôlable. Considérées superficiellement, les statistiques peuvent en effet donner l'impression que la criminalité est plus forte parmi les étrangers que parmi les Suisses. Mais cette impression est trompeuse. Une simple comparaison entre le nombre des condamnés suisses et le nombre des condamnés étrangers n'a guère de valeur, ces derniers formant un ensemble par trop hétérogène. Pour que la comparaison soit valable, il faut tenir compte de plusieurs facteurs qui, indépendamment de la couleur du passeport, influencent la probabilité qu'une personne commette un délit. Ces facteurs sont le type d'autorisation de séjour des étrangers - comme critère de leur intégration sociale -, leurs caractères socio-démographiques et leurs conditions de vie. La présente étude fait aussi apparaître une corrélation entre l'augmentation de la criminalité et la mobilité croissante des individus.",
+            "de": "Seit einiger Zeit stösst die strafrechtliche Registrierung von \"Ausländern\" als soziales Problem auf öffentliches Interesse. Hintergrund ist die Annahme, dass \"Kriminalität von Ausländern\" besonders häufig und massiv vorkommt und damit bedrohlich und unkontrollierbar ist. Zwar erhält man beim Betrachten von Kriminalstatistiken zunächst den Eindruck einer Höherbelastung von Ausländerinnen und Ausländern. Doch ein statistischer Vergleich von Schweizer Verurteilten mit ausländischen Verurteilten ist aufgrund deren heterogener Zusammensetzung wenig aussagekräftig. Zu berücksichtigen sind nicht nur der Aufenthaltsstatus als Merkmal der sozialen Integration, sondern auch die soziodemografische Zusammensetzung sowie die Lebenslagen, welche die Wahrscheinlichkeit einer Kriminalisierung unabhängig von der Farbe des Passes beeinflussen. Die vorliegende Publikation verdeutlicht auch den Zusammenhang zwischen wachsender Mobilität und dem Ansteigen registrierter Kriminalität.",
+            "en": "",
+            "it": ""
+          },
+          "format": "PDF",
+          "mimetype_inner": null,
+          "url_type": null,
+          "mimetype": "application/pdf",
+          "cache_url": null,
+          "name": {
+            "fr": "De la nationalité des condamnés",
+            "de": "Zur Staatszugehörigkeit von Verurteilten",
+            "en": "",
+            "it": ""
+          },
+          "language": [
+            "de",
+            "fr"
+          ],
+          "rights": "NonCommercialAllowed-CommercialWithPermission-ReferenceRequired",
+          "url": "https://www.bfs.admin.ch/bfsstatic/dam/assets/340968/master",
+          "created": "2018-05-24T08:30:27.543729",
+          "uri": "",
+          "last_modified": null,
+          "position": 2,
+          "revision_id": "f931f22b-8bfa-4e91-acfc-be8f12c3be68",
+          "identifier": "340968-master@bundesamt-fur-statistik-bfs",
+          "resource_type": null
+        }
+      ],
+      "publishers": [
+        {
+          "label": "BFS/OFS"
+        }
+      ],
+      "num_resources": 3,
+      "description": {
+        "fr": "La question de la criminalité dans la population \"étrangère\" est, depuis quelque temps déjà, l'un des problèmes de société auxquels le grand public s'intéresse le plus. On pense généralement que la criminalité est particulièrement importante parmi les étrangers, qu'elle menace notre société et qu'elle risque de devenir incontrôlable. Considérées superficiellement, les statistiques peuvent en effet donner l'impression que la criminalité est plus forte parmi les étrangers que parmi les Suisses. Mais cette impression est trompeuse. Une simple comparaison entre le nombre des condamnés suisses et le nombre des condamnés étrangers n'a guère de valeur, ces derniers formant un ensemble par trop hétérogène. Pour que la comparaison soit valable, il faut tenir compte de plusieurs facteurs qui, indépendamment de la couleur du passeport, influencent la probabilité qu'une personne commette un délit. Ces facteurs sont le type d'autorisation de séjour des étrangers - comme critère de leur intégration sociale -, leurs caractères socio-démographiques et leurs conditions de vie. La présente étude fait aussi apparaître une corrélation entre l'augmentation de la criminalité et la mobilité croissante des individus.",
+        "de": "Seit einiger Zeit stösst die strafrechtliche Registrierung von \"Ausländern\" als soziales Problem auf öffentliches Interesse. Hintergrund ist die Annahme, dass \"Kriminalität von Ausländern\" besonders häufig und massiv vorkommt und damit bedrohlich und unkontrollierbar ist. Zwar erhält man beim Betrachten von Kriminalstatistiken zunächst den Eindruck einer Höherbelastung von Ausländerinnen und Ausländern. Doch ein statistischer Vergleich von Schweizer Verurteilten mit ausländischen Verurteilten ist aufgrund deren heterogener Zusammensetzung wenig aussagekräftig. Zu berücksichtigen sind nicht nur der Aufenthaltsstatus als Merkmal der sozialen Integration, sondern auch die soziodemografische Zusammensetzung sowie die Lebenslagen, welche die Wahrscheinlichkeit einer Kriminalisierung unabhängig von der Farbe des Passes beeinflussen. Die vorliegende Publikation verdeutlicht auch den Zusammenhang zwischen wachsender Mobilität und dem Ansteigen registrierter Kriminalität.",
+        "en": "",
+        "it": ""
+      },
+      "tags": [
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "crime-and-criminal-justice",
+          "id": "b3f618e3-1e1a-4999-9b7e-fbb65c4fcde2",
+          "name": "crime-and-criminal-justice"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "criminalitad-e-dretg-penal",
+          "id": "662c4d9e-be46-4b10-9878-f188cf3c3ef9",
+          "name": "criminalitad-e-dretg-penal"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "criminalite-et-droit-penal",
+          "id": "5a543b18-7f81-4a54-98c0-d1268b64f34a",
+          "name": "criminalite-et-droit-penal"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "diritto-e-giustizia",
+          "id": "33dace3f-5108-4283-8ef6-746300032fcc",
+          "name": "diritto-e-giustizia"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "kriminalitat-und-strafrecht",
+          "id": "c53bd462-18a7-4949-bbb1-2111c6383c7f",
+          "name": "kriminalitat-und-strafrecht"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "pubblicazione",
+          "id": "9133dbec-9d52-4c3f-83b1-456778d37b1a",
+          "name": "pubblicazione"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "publication",
+          "id": "387f8785-7766-4f57-8b74-35d4eb82bddc",
+          "name": "publication"
+        },
+        {
+          "vocabulary_id": null,
+          "state": "active",
+          "display_name": "publikation",
+          "id": "ef2b8164-b7dd-4155-a7e8-48b6b132d9c6",
+          "name": "publikation"
+        }
+      ],
+      "title": {
+        "fr": "De la nationalité des condamnés",
+        "de": "Zur Staatszugehörigkeit von Verurteilten",
+        "en": "",
+        "it": ""
+      },
+      "language": [
+        "de",
+        "fr"
+      ],
+      "groups": [
+        {
+          "display_name": {
+            "fr": "Criminalité, droit pénal",
+            "de": "Kriminalität, Strafrecht",
+            "en": "Crime, criminal justice",
+            "it": "Criminalità, diritto penale"
+          },
+          "description": {
+            "fr": "",
+            "de": "",
+            "en": "",
+            "it": ""
+          },
+          "image_display_url": "",
+          "title": {
+            "fr": "Criminalité, droit pénal",
+            "de": "Kriminalität, Strafrecht",
+            "en": "Crime, criminal justice",
+            "it": "Criminalità, diritto penale"
+          },
+          "id": "2cd03703-e1e3-4031-bd3c-4d0e82d3d7c1",
+          "name": "crime"
+        }
+      ],
+      "creator_user_id": "0594d621-c92a-4a32-809c-98e281dc7944",
+      "relationships_as_subject": [
+        
+      ],
+      "organization": {
+        "display_name": {
+          "fr": "Office fédéral de la statistique OFS",
+          "de": "Bundesamt für Statistik BFS",
+          "en": "Federal Statistical Office FSO",
+          "it": "Ufficio federale di statistica UST"
+        },
+        "description": {
+          "fr": "L'OFS est le centre de compétence de la statistique publique suisse. Il produit des informations statistiques sur la population, l'économie, la société, la formation et la recherche, le territoire et l'environnement. Ces informations servent à la formation de l’opinion publique. Elles sont un outil de planification et de gouvernance dans tous les domaines de l’action politique et contribuent au bon fonctionnement de notre État moderne et démocratique.",
+          "de": "Das BFS ist das nationale Kompetenzzentrum der öffentlichen Statistik der Schweiz. Es produziert und publiziert statistische Informationen über den Stand und die Entwicklung von Bevölkerung, Wirtschaft, Gesellschaft, Bildung, Forschung, Raum und Umwelt. Diese Informationen dienen der Meinungsbildung in der Bevölkerung sowie der Planung und Steuerung von zentralen Politikbereichen. Sie leisten einen wichtigen Beitrag für einen modernen, demokratischen Staat.",
+          "en": "The FSO is Switzerland's national competence centre for official statistics. It produces and publishes statistical information on the status and development of the population, economy, society, education, research, territory and the environment. This information is used for opinion building among the population and for the planning and management of key policy areas. They make an important contribution to a modern, democratic state.",
+          "it": "L’UST è il centro di competenza nazionale per la statistica pubblica della Svizzera. Produce e pubblica informazioni statistiche sullo stato e sull'evoluzione della popolazione, dell'economia, della società, della formazione, della ricerca, del territorio e dell'ambiente. Queste informazioni servono alla formazione dell'opinione pubblica nonché alla pianificazione e alla gestione in ambiti politici di centrale importanza. Forniscono un importante contributo per uno Stato moderno e democratico."
+        },
+        "image_display_url": "https://opendata.swiss/content/uploads/2016/02/BFS_08_web.jpg",
+        "url": "https://www.bfs.admin.ch",
+        "package_count": 4093,
+        "created": "2015-11-30T11:50:01.742198",
+        "name": "bundesamt-fur-statistik-bfs",
+        "is_organization": true,
+        "state": "active",
+        "image_url": "https://opendata.swiss/content/uploads/2016/02/BFS_08_web.jpg",
+        "revision_id": "934b69d7-28af-459b-b880-10b9198d12be",
+        "groups": [
+          
+        ],
+        "type": "organization",
+        "title": {
+          "fr": "Office fédéral de la statistique OFS",
+          "de": "Bundesamt für Statistik BFS",
+          "en": "Federal Statistical Office FSO",
+          "it": "Ufficio federale di statistica UST"
+        },
+        "political_level": "confederation",
+        "num_followers": 0,
+        "id": "4309c328-c618-4077-bcdc-378a21ee1b46",
+        "tags": [
+          
+        ],
+        "approval_status": "approved"
+      },
+      "name": "zur-staatszugehorigkeit-von-verurteilten",
+      "isopen": false,
+      "url": "https://www.bfs.admin.ch/bfs/de/home/statistiken.html",
+      "owner_org": "4309c328-c618-4077-bcdc-378a21ee1b46",
+      "extras": [
+        {
+          "key": "guid",
+          "value": "340969@bundesamt-fur-statistik-bfs"
+        },
+        {
+          "key": "uri",
+          "value": ""
+        }
+      ],
+      "see_alsos": {
+        
+      },
+      "revision_id": "58692982-3139-4eb1-b556-12efcce1e3a1",
+      "identifier": "340969@bundesamt-fur-statistik-bfs"
+    }
+  }
