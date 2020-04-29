@@ -27,12 +27,11 @@ https://www.pxweb.bfs.admin.ch/pxweb/fr/px-x-0105090000_102/px-x-0105090000_102/
 
 **Idées graphiques:**
 
-- graphes baton: les 25 pays étrangers ayant le plus de personnes avec la nationalité Suisse (ou double nationalité) en 2019 hors pays d'Europe.
-https://www.pxweb.bfs.admin.ch/api/v1/fr/px-x-0105090000_102/px-x-0105090000_102.px
+- graphes baton: les 25 pays étrangers ayant le plus de personnes avec la nationalité Suisse (ou double 
 
 - graphe circulaire : nombre d'étrangers/continents en 2019.
-    https://www.pxweb.bfs.admin.ch/api/v1/fr/px-x-0105090000_102/px-x-0105090000_102.px
+  
 
 - graphe courbe: nombre d'étrangers ayant une double nationalité entre 2017 et 2019.
-    https://www.pxweb.bfs.admin.ch/api/v1/fr/px-x-0105090000_102/px-x-0105090000_102.px
+    
 
