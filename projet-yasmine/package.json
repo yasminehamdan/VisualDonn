@@ -1,14 +1,14 @@
 {
   "name": "billboard-batons",
   "version": "1.0.0",
-  
   "scripts": {
     "graph": "parcel src/index.html --out-dir dist"
   },
   "license": "ISC",
   "dependencies": {
     "billboard": "^1.0.0",
-    "billboard.js": "^1.12.2"
+    "billboard.js": "^1.12.2",
+    "parcel": "^1.12.4"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"

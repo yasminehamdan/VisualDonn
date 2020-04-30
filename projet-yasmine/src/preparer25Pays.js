@@ -1,7 +1,7 @@
 import bb from 'billboard.js'
 
 // importer `tout.json`
-const data = require('../data/tout.json')
+const data = require('./data/tout.json')
 
 // une fonction qui prends un objet est dit s'il s'agit d'un pays
 // les pays commencent par `>>`
@@ -29,20 +29,3 @@ const resultat = data
 console.log(
   JSON.stringify(resultat)
 )
-
-
-bb.generate({
-  data: {
-    json: {
-      population: resultat.map(({ suisses }) => suisses),
-    },
-    type: 'bar',
-  },
-  axis: {
-    x: {
-      type: 'category',
-      categories: resultat.map(({ pays }) => pays),
-    }
-  },
-  bindto: document.getElementById('graphique')
-})
