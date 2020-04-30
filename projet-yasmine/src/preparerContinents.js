@@ -1,5 +1,8 @@
+import bb from 'billboard.js'
+// base css
+import "billboard.js/dist/theme/insight.css";
 // importer `tout.json`
-const data = require('./tout.json')
+const data = require('../data/tout.json')
 
 
 // une fonction qui prends un objet est dit s'il s'agit d'un continent
@@ -24,3 +27,26 @@ const resultat = data
 console.log(
   JSON.stringify(resultat)
 )
+
+bb.generate({
+  data: {
+    json: {
+      population: resultat.map(({ suisses }) => suisses),
+    },
+    type: 'pie',
+    onover: function(d, i) {
+      console.log("onover", d, i);
+       },
+    onout: function(d, i) {
+      console.log("onout", d, i);
+    },
+  axis: {
+    x: {
+      type: 'category',
+      categories: resultat.map(({ pays }) => pays),
+    }
+  },
+  bindto: document.getElementById('graphique')
+}})
+
+

@@ -40,7 +40,7 @@ bb.generate({
   axis: {
     x: {
       type: 'category',
-      categories: DATA.map(({ pays }) => pays),
+      categories: resultat.map(({ pays }) => pays),
     }
   },
   bindto: document.getElementById('graphique')

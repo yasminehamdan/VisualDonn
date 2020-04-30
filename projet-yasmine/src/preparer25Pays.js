@@ -1,7 +1,7 @@
 import bb from 'billboard.js'
 
 // importer `tout.json`
-const data = require('./tout.json')
+const data = require('../data/tout.json')
 
 // une fonction qui prends un objet est dit s'il s'agit d'un pays
 // les pays commencent par `>>`
