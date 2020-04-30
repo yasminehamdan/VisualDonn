@@ -43,7 +43,7 @@ bb.generate({
   axis: {
     x: {
       type: 'category',
-      categories: resultat.map(({ pays }) => pays),
+      categories: resultat.map(({ continent }) => continent),
     }
   },
   bindto: document.getElementById('graphique')
