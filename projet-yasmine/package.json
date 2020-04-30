@@ -1,15 +1,20 @@
 {
   "name": "billboard-batons",
   "version": "1.0.0",
+  
   "scripts": {
-    "dev": "parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "graph": "parcel src/index.html --out-dir dist"
   },
   "license": "ISC",
   "dependencies": {
+    "billboard": "^1.0.0",
     "billboard.js": "^1.12.2"
   },
   "devDependencies": {
     "parcel-bundler": "^1.12.4"
-  }
+  },
+  "description": "Les données utilisées pour se projet proviennet de l'OFS, l'office fédéral de la statistique.\r Elles reprérentes les Suisses de l'étranger selon le pays de résidence, le droit de cité, le sexe et la classe d'âge:",
+  "main": "index.js",
+  "keywords": [],
+  "author": ""
 }
