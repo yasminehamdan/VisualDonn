@@ -16,11 +16,19 @@ On entend "Suisse de l'étranger" étranger ayant la nationalité Suisse ou la d
 ### - Les 25 nationalités les plus présentent en Suisse : graphe baton
 Ce graphe montre les 25 nationalités les plus présente en Suisse. Ces chiffres ne considère que les Suisses de l'étranger. Les demandeurs d'asile, les sans-papiers, les refugiés ne sont par exemple pas pris en compte dans ces chiffres.
 
+![alt text](https://github.com/yasminehamdan/VisualDonn/blob/master/projet-yasmine/images/batton.png)
+
+
 ### - Les Suisses de l'étranger selon le continent : graphe camembère
 Ce graphe montre le pourcentage de Suisse de l'étrangers regroupés selon leurs continent. Le découpage n'est pas politique mais geographique. Les états et territoires sont répartis en fonction de leur situation géographique sur l'un des cinq continents. 
 
+![alt text](https://github.com/yasminehamdan/VisualDonn/blob/master/projet-yasmine/images/camember.png)
+
+
 ### - Le nombre de Suisses de l'étranger entre 2017 et 2019 : graphe courbe
 Ce graphe montre l'augmentation des Suisses de l'étranger entre 2017 et 2019. C'est-à-dire les étrangers possédant seulement la nationalité Suisse ou possédant plusieurs nationalités.
+
+![alt text](https://github.com/yasminehamdan/VisualDonn/blob/master/projet-yasmine/images/droite.png)
 
 
 
