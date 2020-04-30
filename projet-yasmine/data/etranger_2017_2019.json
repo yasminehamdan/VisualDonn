@@ -1,0 +1,46 @@
+{"dataset":{
+    "dimension":{
+        "Wohnsitzstaat":{
+            "label":"Pays de résidence",
+            "category":{
+                "index":{"0":0},
+                "label":{"0":"Pays de résidence - total"}
+            }
+        },
+        "Bürgerrecht":{
+            "label":"Droit de cité",
+            "category":{
+                "index":{"2":0},
+                "label":{"2":"Possédant plusieurs nationalités"}
+            }
+        },
+        "Geschlecht":{
+            "label":"Sexe",
+            "category":{
+                "index":{"0":0},
+                "label":{"0":"Sexe - total"}
+            }
+        },
+        "Altersklasse":{
+            "label":"Classe d\u0027âge",
+            "category":{
+                "index":{"0":0},
+                "label":{"0":"Classe d\u0027âge - total"}
+            }
+        },
+        "Jahr":{
+            "label":"Année",
+            "category":{
+                "index":{"0":0,"1":1,"2":2},
+                "label":{"0":"2017","1":"2018","2":"2019"}
+            }
+        },
+        "id":["Wohnsitzstaat","Bürgerrecht","Geschlecht","Altersklasse","Jahr"],
+        "size":[1,1,1,1,3],
+        "role":{"time":["Jahr"]}
+    },
+    "label":"Suisses de l\u0027étranger selon Pays de résidence, Droit de cité, Sexe, Classe d\u0027âge et Année",
+    "source":"OFS - Statistique des Suisses de l\u0027étranger - © OFS",
+    "updated":"2018-04-05T07:15:00Z",
+    "value":[560601,567756,576148]}
+}
