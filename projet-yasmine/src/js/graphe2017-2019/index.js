@@ -10,20 +10,17 @@ let etranger= data.map(d => d.etranger)
 
 
 export default function () {
-
-  let tab = []
-
-  année.forEach((année, key) => {
-     tab.push([année, etranger[key]])
-  });
-  
-  console.log(tab)
-
   let chart = bb.generate({
   data: {
-    columns:tab
-      //
-      //HELP : je ne comprends pas comment mettre les années sur l'axe des abscisses
+    // une ligne avec le titre et les valeurs pour l'axe y
+    columns: [['Suisses de l\'étranger', ...etranger]]
+  },
+  axis: {
+    // mettre les années comme cateégorie sur l'axe x
+    x: {
+      type: 'category',
+      categories: année,
+    }
   },
   bindto: "#entranger-graphique"
 });

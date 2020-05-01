@@ -25,14 +25,14 @@ export default function () {
          },
       onout: function(d, i) {
         console.log("onout", d, i);
-      },
+      }},
     axis: {
         x: {
           type: 'category',
           categories: tab.map(({ continent }) => continent),
         },
-    bindto: "#continent-graphique"
-    }}});
-
+    },
+     bindto: "#continent-graphique"
+    });
 }
   

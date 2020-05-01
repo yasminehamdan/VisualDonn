@@ -8,21 +8,23 @@ body {
 }
 
 #content {
-	width: 750px;
+	width: 100%;
 	margin: 5px auto;
 	background-color: #fff;
 	color: #333;
 	line-height: 130%;
 }
 
-#titre{
-	font-size: 20px;
-	font-weight: bold;
+header{
+	font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
 	margin-bottom: 10px;
 	padding-left: 20px;
 	color: #fff;
 	height: 80px;
-	background: red;
+	background: rgb(192, 5, 5);
 }
 
 #logo {
@@ -30,13 +32,13 @@ body {
 }
 
 .box{
-    border: 15px solid red;
+    border: 15px solid rgb(192, 5, 5);
     padding: 50px;
-    width: 750px;
-	margin: 5px auto;
+    width: 50%;
+    margin: 10px auto;
 	background-color: #fff;
 	color: #333;
-	line-height: 130%;
+    line-height: 130%;
 }
 
 h2{
@@ -50,4 +52,13 @@ h2{
 .text {
     color: black;
     margin: 10px auto;
+    font-size: 14px;
+}
+
+footer{
+	margin-bottom: 10px;
+	padding: 20px;
+	color: #fff;
+	height: 80px;
+	background: rgb(192, 5, 5);
 }
