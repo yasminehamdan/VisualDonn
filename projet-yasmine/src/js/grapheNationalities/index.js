@@ -1,5 +1,7 @@
 import bb from 'billboard.js'
 import data from '../../../data/25pays.json'
+// base css
+// import "billboard.js/dist/theme/insight.css";
 
 let colonnes = data.map(d => d.suisses)
 let pays= data.map(d => d.pays)

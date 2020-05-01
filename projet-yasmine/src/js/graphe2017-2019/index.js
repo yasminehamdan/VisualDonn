@@ -1,13 +1,31 @@
-// base css
-import "billboard.js/dist/theme/insight.css";
-// Packaged build with d3
-import bb from "billboard.js/dist/billboard.pkgd";
 
-var chart = bb.generate({
+// Packaged build with d3
+import bb from 'billboard.js'
+import data from '../../../data/2017_2019.json'
+// base css
+// import "billboard.js/dist/theme/insight.css";
+
+let année = data.map(d => d.année)
+let etranger= data.map(d => d.etranger)
+
+
+export default function () {
+
+  let tab = []
+
+  année.forEach((année, key) => {
+     tab.push([année, etranger[key]])
+  });
+  
+  console.log(tab)
+
+  let chart = bb.generate({
   data: {
-    columns: [
-	["data1", 30, 200, 100, 400, 150, 250],
-    ]
+    columns:tab
+      //
+      //HELP : je ne comprends pas comment mettre les années sur l'axe des abscisses
   },
-  bindto: "#lineChart"
+  bindto: "#entranger-graphique"
 });
+}
+

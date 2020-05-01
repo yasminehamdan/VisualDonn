@@ -1,8 +1,6 @@
 import bb from 'billboard.js'
-// base css
-import "billboard.js/dist/theme/insight.css";
 // importer `tout.json`
-const data = require('../data/tout.json')
+const data = require('./data/tout.json')
 
 
 // une fonction qui prends un objet est dit s'il s'agit d'un continent

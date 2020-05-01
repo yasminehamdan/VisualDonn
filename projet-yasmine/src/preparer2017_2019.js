@@ -1,29 +1,15 @@
 import bb from 'billboard.js'
-// base css
-import "billboard.js/dist/theme/insight.css";
+// importer `etranger_2017_2019.json'
+const data = require('./data/etranger_2017_2019.json')
 
+// on a besoin des données "value":[560601,567756,576148]} 
+const resultat = data
+  .map(d => ({
+    année: ['2017','2018','2019'],
+    étranger: d['values'],
+  }))
 
-var chart = bb.generate({
-    data: {
-        json: {
-            population: resultat.map(({ suisses }) => suisses),
-          },
-        x: "x",
-        columns: [
-        ["x", "2017", "2018", "2020"],
-        ["data2", 130, 340, 200]
-        ],
-        type: {
-          data1: "area-line-range"
-        }
-      },
-      axis: {
-        x: {
-          type: "timeseries",
-          tick: {
-            format: "%Y",
-          }
-        }
-      },
-    bindto: document.getElementById('graphique')
-  });
+  // transformer en chaine de charactères et passer le tout à la console
+console.log(
+  JSON.stringify(resultat)
+)
