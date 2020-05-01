@@ -5,36 +5,50 @@
     <meta charset="utf-8" />
     <title>Les Suisses de l'étranger</title>
     <link rel="stylesheet" href="../node_modules/billboard.js/dist/billboard.min.css" />
+    <link rel="stylesheet" type="text/css" href="style/style.css" />
 </head>
 
 <body>
 
     <div id="content">
+            <div id="titre">
+                    <div id="logo"> Les Suisses de l'étranger</div>
+            </div>
 
+            <div class="box">
                 <div id="nationalities">
                     <div class="graph-descr">
                         <h2>Les nationalités les plus présentes en Suisse : graphe baton</h2>
+                        <div class='text'>Ce graphe montre les 25 nationalités les plus présente en Suisse. Ces chiffres ne considère que les Suisses de l'étranger. Les demandeurs d'asile, les sans-papiers, les refugiés ne sont par exemple pas pris en compte dans ces chiffres.</div>
                     </div>
                     <div id="nationalities-graphique"></div>
                 </div>
+            </div>
             
+            <div class="box">
                 <div id="swiss-2017-2019">
                         <div class="graph-descr">
                             <h2>Le nombre de Suisses de l'étranger entre 2017 et 2019 : graphe courbe</h2>
+                            <div class='text'>Ce graphe montre l'augmentation des Suisses de l'étranger entre 2017 et 2019. C'est-à-dire les étrangers possédant seulement la nationalité Suisse ou possédant plusieurs nationalités.</div>
                         </div>
                         <div id="entranger-graphique"></div>
                 </div>
+            </div>
 
+            <div class="box">
                 <div id="swiss-continent">
                     <div class="graph-descr">
                         <h2>Les Suisses de l'étranger selon le continent : graphe camembert</h2>  
+                        <div class='text'>Ce graphe montre le pourcentage de Suisse de l'étrangers regroupés selon leurs continent. Le découpage n'est pas politique mais geographique. Les états et territoires sont répartis en fonction de leur situation géographique sur l'un des cinq continents. </div>
                     </div>
                     <div id="continent-graphique"></div>
                 </div>
+            </div>
 
     </div>
-
+    <footer>Yasmine Hamdan</footer>
     <script src="index.js"></script>
 </body>
+
 
 </html>
