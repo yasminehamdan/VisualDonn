@@ -1,13 +1,32 @@
 # Projet Datavis
 
 ## Les données
-Les données utilisées pour se projet proviennet de l'OFS, l'office fédéral de la statistique.
-Elles reprérentes les Suisses de l'étranger selon le pays de résidence, le droit de cité, le sexe et la classe d'âge:
+Les données utilisées pour se projet proviennent de l'OFS, l'office fédéral de la statistique :
+https://www.bfs.admin.ch/bfs/fr/home.assetdetail.12247856.html
+
+Elles reprérentent les Suisses de l'étranger selon le pays de résidence, le droit de cité, le sexe et la classe d'âge.
+On entend "Suisse de l'étranger" : étrangers ayant seulement la nationalité Suisse ou la nationalité Suisse et d'autres nationalités.
 
 https://www.pxweb.bfs.admin.ch/api/v1/fr/px-x-0105090000_102/px-x-0105090000_102.px
 (Format JSON)
 
-On entend "Suisse de l'étranger" étranger ayant la nationalité Suisse ou la double nationalité.
+
+lien vers le code source du projet :
+https://github.com/yasminehamdan/VisualDonn/tree/master/projet-yasmine
+
+
+Transformation des données:
+Le fichier de base est tout.csv, il a été transformé en fichier json.
+Puis pour chaque graphique, un fichier .json est généré grace à un fichier .js de préparation des données qui extrait les données necessaire à la création de chaque graphique. 
+(Grace  à la commande : node fichierJsPrépareLesDonnées > FichierDonnéesNecessaireAugraphe.json)
+
+
+Un lien vers la visualisation publiée:
+à faire
+
+
+Le scripte à utiliser pour recréer le site à partir du code:
+à faire
 
 
 
