@@ -22,11 +22,8 @@ Puis pour chaque graphique, un fichier .json est généré grace à un fichier .
 
 
 Un lien vers la visualisation publiée:
-à faire
+http://suisses2letranger.surge.sh/
 
-
-Le scripte à utiliser pour recréer le site à partir du code:
-à faire
 
 
 
