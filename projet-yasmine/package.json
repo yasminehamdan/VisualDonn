@@ -9,7 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "billboard": "^1.0.0",
-    "billboard.js": "^1.12.2",
+    "billboard.js": "^3.6.0",
     "parcel": "^1.12.4",
     "surge": "^0.21.3"
   },
